@@ -25,16 +25,19 @@
 .table-format tr {
     border-collapse: collapse;
     border: 0.3px solid black;
+    padding: 5px;
 }
 
 .table-format td {
     border-collapse: collapse;
     border: 0.3px solid black;
+    padding: 5px;
 }
 
 .table-format th {
     border-collapse: collapse;
     border: 0,3px solid black;
+    padding: 5px;
 }
 
 .links-section ul {
