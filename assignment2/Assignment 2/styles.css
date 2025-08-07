@@ -1,17 +1,55 @@
-/* Resetting default margin and padding for all elements */
-
-* {
-    margin: 0;
-    padding: 0;
-}
-
-/* Body styling */
-body {
+.font-family {
     font-family: Arial, sans-serif;
-    background-color: #f2f2f2;
-    color: #333;
-    line-height: 1.6;
-    padding: 20px;
 }
 
-/* Add in your own customisations */
+.header-format { color: white;
+                background-color: #93d0f4;
+                position: relative;
+                text-align: center; 
+}
+
+.header-format h1 {
+    padding: 20px 50px 0px 50px;
+}
+
+.header-format img {
+    background-color: #93d0f4; padding: 0px 50px 30px 50px;
+}
+
+.table-format {
+    border-collapse: collapse;
+    border: 0.3px solid black;
+    width: 100%;
+}
+
+.table-format tr {
+    border-collapse: collapse;
+    border: 0.3px solid black;
+}
+
+.table-format td {
+    border-collapse: collapse;
+    border: 0.3px solid black;
+}
+
+.table-format th {
+    border-collapse: collapse;
+    border: 0,3px solid black;
+}
+
+.links-section ul {
+        padding-left: 10px;
+        margin-left: 0;
+}
+
+.links-section ul li a{
+    color: #0079c1; 
+    text-decoration: none;
+}
+
+.footer-format {
+    color: white;
+    background-color: #93d0f4;
+    text-align: center;
+    padding: 10px;
+}
